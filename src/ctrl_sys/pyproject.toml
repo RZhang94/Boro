@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ctrl-sys"
+version = "0.1.0"
+description = ""
+authors = ["Ray Zhang <35127627+RZhang94@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
